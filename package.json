@@ -24,9 +24,9 @@
   },
   "scripts": {
     "start": "react-app-rewired start",
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "build": "react-app-rewired build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
   "browserslist": [
     ">0.2%",
